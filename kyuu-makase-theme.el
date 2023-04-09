@@ -33,30 +33,30 @@
   "A Plan9 inspired theme"
   :background-mode 'light)
 
-;; (black        "#000000")
-;; (red          "#880000")
-;; (green        "#005500")
-;; (brown        "#663311")
-;; (blue         "#004488")
-;; (magenta      "#770077")
-;; (cyan         "#007777")
-;; (beige        "#eeeecc")
-;; (pale-gray    "#eaeaea")
-;; (pale-red     "#ffeaea")
-;; (pale-green   "#eaffea")
-;; (yellow       "#eeee9e")
-;; (pale-blue    "#cceeff")
-;; (pale-magenta "#ffeaff")
-;; (pale-cyan    "#eaffff")
-;; (pale-yellow  "#ffffea")
-;; (shadow       "#808075")
-;; (off-bg       "#f7f7db")
+(let ((black         "#000000")
+      ((red          "#880000"))
+      ((green        "#005500"))
+      ((brown        "#663311"))
+      ((blue         "#004488"))
+      ((magenta      "#770077"))
+      ((cyan         "#007777"))
+      ((beige        "#eeeecc"))
+      ((pale-gray    "#eaeaea"))
+      ((pale-red     "#ffeaea"))
+      ((pale-green   "#eaffea"))
+      ((yellow       "#eeee9e"))
+      ((pale-blue    "#cceeff"))
+      ((pale-magenta "#ffeaff"))
+      ((pale-cyan    "#eaffff"))
+      ((pale-yellow  "#ffffea"))
+      ((shadow       "#808075"))
+      ((off-bg       "#f7f7db")))
+  (custom-theme-set-faces
+   'kyuu-makase
 
-(custom-theme-set-faces
- 'kyuu-makase
+   ;; built-in faces
+   `(default ((t :background pale-yellow)))))
 
- ;; built-in faces
- `(default ((t :background "#ffffea"))))
 
 ;;;###autoload
 (when load-file-name
