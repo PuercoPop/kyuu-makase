@@ -25,11 +25,13 @@
 ;;; Commentary:
 
 ;; A Plan9 inspired theme. Inspired by Parchment, which is sadly unmaintained.
+;; (info "(elisp)Custom Themes")
 
 ;;; Code:
 
 (deftheme kyuu-makase
-  "A Plan9 inspired theme")
+  "A Plan9 inspired theme"
+  :background-mode 'light)
 
 ;; (black        "#000000")
 ;; (red          "#880000")
@@ -56,7 +58,7 @@
  ;; built-in faces
  `(default ((t :background "#ffffea"))))
 
-(provide 'kyuu-makase)
+(provide-theme 'kyuu-makase)
 
 ;; Local Variables:
 ;; coding: utf-8
