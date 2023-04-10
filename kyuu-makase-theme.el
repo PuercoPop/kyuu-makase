@@ -58,7 +58,10 @@
    ;; built-in faces
    `(default ((t :foregound ,soft-black :background ,pale-yellow)))
    `(success ((t :foreground ,pale-green)))
-   `(error ((t :foreground ,red)))))
+   `(error ((t :foreground ,red)))
+
+   ;; forge
+   `(forge-topic-closed ((t :inherit magit-dimmed :strike-through t)))))
 
 
 ;;;###autoload
