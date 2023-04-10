@@ -34,6 +34,7 @@
   :background-mode 'light)
 
 (let ((black        "#000000")
+      (soft-black   "#444444")
       (red          "#880000")
       (green        "#005500")
       (brown        "#663311")
@@ -48,14 +49,16 @@
       (pale-blue    "#CCEEFF")
       (pale-magenta "#FFEAFF")
       (pale-cyan    "#EAFFFF")
-      (pale-yellow  "#FFFFEA")
+      (pale-yellow  "#EFEFD8") ; "#FFFFEA"
       (shadow       "#808075")
       (off-bg       "#F7F7DB"))
   (custom-theme-set-faces
    'kyuu-makase
 
    ;; built-in faces
-   `(default ((t :background ,pale-yellow)))))
+   `(default ((t :foregound ,soft-black :background ,pale-yellow)))
+   `(success ((t :foreground ,pale-green)))
+   `(error ((t :foreground ,red)))))
 
 
 ;;;###autoload
