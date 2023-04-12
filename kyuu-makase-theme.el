@@ -60,6 +60,11 @@
    `(success ((t :foreground ,pale-green)))
    `(error ((t :foreground ,red)))
 
+   ;; helm-ls-git
+   `(helm-ls-git-added-copied-face ((t :foreground ,green)))
+   `(helm-ls-git-branches-name-current ((t :foreground ,green)))
+   `(helm-ls-git-modified-not-staged-face ((t :foreground ,blue)))
+
    ;; forge
    `(forge-topic-closed ((t :inherit magit-dimmed :strike-through t)))))
 
