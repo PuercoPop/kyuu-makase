@@ -57,7 +57,7 @@
 
    ;; built-in faces
    `(default ((t :foregound ,soft-black :background ,pale-yellow)))
-   `(success ((t :foreground ,pale-green)))
+   `(success ((t :foreground ,green)))
    `(error ((t :foreground ,red)))
 
    ;; helm-ls-git
